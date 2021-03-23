@@ -1,0 +1,145 @@
+.Focus{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.Focus h5{
+    margin-top: 10px;
+}
+
+.Focus_DayWork{
+    
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    background-color: rgba(255, 255, 255, 0.89);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    border-top: 4px solid orange;
+    
+}
+
+.Focus_Offer{
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    background-color: rgba(255, 255, 255, 0.89);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    border-top: 4px solid blue;
+}
+
+.Focus_Today{
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    background-color: rgba(255, 255, 255, 0.89);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    border-top: 4px solid green;
+}
+
+.Focus_Resources{
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    background-color: rgba(255, 255, 255, 0.89);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    border-top: 4px solid red;
+}
+
+.Focus_Exchange{
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    background-color: rgba(255, 255, 255, 0.89);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    border-top: 4px solid green;
+}
+
+.Focus_Form{
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    background-color: rgba(255, 255, 255, 0.89);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    border-top: 4px solid orange;
+}
+.Focus_Opportunity{
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    background-color: rgba(255, 255, 255, 0.89);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    border-top: 4px solid red;
+}
+
+.Focus_Report{
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    background-color: rgba(255, 255, 255, 0.89);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    border-top: 4px solid orange;
+}
+
+.Focus_Request{
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    background-color: rgba(255, 255, 255, 0.89);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    border-top: 4px solid orange;
+}
+
+.Focus_Customer{
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    background-color: rgba(255, 255, 255, 0.89);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    border-top: 4px solid green;
+}
+
+
+
+.Focus_DayWork .DayWork_item , .Focus_Offer .DayWork_item, .Focus_Today .DayWork_item , .Focus_Resources .DayWork_item , .Focus_Form .DayWork_item , .Focus_Opportunity .DayWork_item , .Focus_Report .DayWork_item , .Focus_Request .DayWork_item , .Focus_Customer .DayWork_item, .Focus_Exchange .DayWork_item {
+    text-align: center;
+    margin: 30px;
+    font-size: 20px;
+    color: rgb(173, 165, 165);
+}
+
+.Focus i{
+    font-size: 40px;
+}
+
+.Focus {
+    margin: 20px;
+    background-color: rgb(168, 164, 164);
+
+}
+
+
+.Focus::-webkit-scrollbar {
+    display: none;
+}
+
+

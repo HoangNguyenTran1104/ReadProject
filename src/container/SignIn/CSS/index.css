@@ -1,0 +1,196 @@
+/* video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    
+}
+
+.SignIn{
+    height: 100hv;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     box-shadow: inset  0 0 0 1000px rgba(0, 0, 0, 0.2); 
+    object-fit: contain;
+   
+}
+
+input{
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 2px solid white !important;
+    margin: 20px;
+
+}
+
+.SignIn_icon{
+    background-color: transparent !important;
+}
+
+
+
+.SignIn_container #getStarted{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+
+    background-color: transparent;
+    color: white;
+    border: 4px solid rgba(255, 255, 255, 0.295);
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 800;
+
+    transition: all linear 0.5s;
+}
+
+.SignIn_container #getStarted:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.SignIn_ModalBody Button{
+    width: 200px !important;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px){
+    .SignIn_container #getStarted{
+        position: absolute;
+        top: 45%;
+        left: 40%;
+    
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px){
+    .SignIn_container #getStarted{
+        position: absolute;
+        top: 50%;
+        left: 25%;
+    
+    }
+} */
+
+.SignIn_Container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.SignIn_Left{
+    width: 60%;
+}
+
+#imgUEF{
+    width: 100%;
+    height: 100%;
+
+}
+
+.SignIn_Right{
+    width: 40%;
+    background-color: white;
+}
+
+.SignIn_Right .SignIn_Icon{
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.SignIn_Right form{
+    margin: 40px 30px;
+}
+.SignIn_Right form .MuiInputBase-root{
+    width: 480px !important;
+    margin: 10px 0;
+}
+
+.SignIn_Right form  .MuiFormLabel-root{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    /* font-size: 20px; */
+}
+
+.SignIn_Right form .MuiButton-root{
+    width: 480px !important;
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 800px){
+    .SignIn_Container{
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    .SignIn_Left{
+        width: 50%;
+    }
+
+    .SignIn_Right{
+        width: 50%;
+        background-color: white;
+    }
+
+    .SignIn_Right form .MuiInputBase-root{
+        width: 330px !important;  
+        margin: 10px 0;
+    }
+    
+    .SignIn_Right form  .MuiFormLabel-root{
+        position: absolute;
+        top: 10px;
+        left: 0;
+        /* font-size: 20px; */
+    }
+    
+    .SignIn_Right form .MuiButton-root{
+        width: 330px !important;
+    }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 600px){
+    .SignIn_Container{
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    .SignIn_Left{
+        width: 0%;
+    }
+
+    .SignIn_Right{
+        width: 100%;
+        background-color: white;
+    }
+
+    .SignIn_Right form{
+        margin: 40px 30px;
+    }
+    /* input */
+    .SignIn_Right form .MuiInputBase-root{
+        width: 330px !important;  
+        margin: 10px 0;
+    }
+    
+    .SignIn_Right form  .MuiFormLabel-root{
+        position: absolute;
+        top: 10px;
+        left: 0;
+        /* font-size: 20px; */
+    }
+    
+    .SignIn_Right form .MuiButton-root{
+        width: 330px !important;
+    }
+} 

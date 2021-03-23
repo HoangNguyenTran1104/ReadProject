@@ -1,0 +1,111 @@
+.Navbar{
+    padding-top: 20px;
+
+}
+
+
+.Navbar_Admin img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.Navbar .Navbar_logo h1{
+    font-family: 'Comfortaa', cursive;
+    color:#005595;
+    font-weight: 800;
+}
+
+.Navbar .Navbar_container {
+    font-weight: 700;
+    
+    z-index: 10;
+}
+
+.Navbar .Navbar_container .navbar-nav .nav-link{
+    padding-left: 20px;
+}
+
+.Navbar .Navbar_container .navbar-nav  .active .nav-link, .active {
+    color: green;
+}
+
+
+.Navbar .Navbar_container .navbar-nav .nav-link:hover{
+    color: green;
+}
+
+/* dropdown menu work hover */
+.Navbar .Navbar_container .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+    position: relative;
+    display: inline-block;
+    color: white;
+    background-color: green;
+    z-index: auto;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 800px){
+    /* h1 */
+    .Navbar .Navbar_logo h1{
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+
+    /*button  */
+    .Navbar .Navbar_container .navbar-toggler{
+        position: absolute;
+        top: 15px;
+        right: 0;
+    }
+    /* chu trong butotn*/
+    .Navbar .Navbar_container .navbar-collapse{ 
+        position: absolute;
+        top: 60px;
+        right: 0;
+    }
+
+    /* .Navbar .Navbar_container .Navbar_Admin .navbar-nav .nav-item .dropdown-menu{
+        position: absolute;
+        top: 60px;
+        right: 0;
+    } */
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 600px){
+    .Navbar .Navbar_logo h1{
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+
+    .Navbar .Navbar_container .navbar-toggler{
+        position: absolute;
+        top: 15px;
+        right: 0;
+    }
+    .Navbar .Navbar_container .navbar-collapse{
+        position: absolute;
+        top: 60px;
+        right: 0;
+    }
+    /* dropdown menu work */
+    /* .Navbar .Navbar_container .navbar-collapse .dropdown-menu{
+        position: absolute;
+        top: 60px;
+        right: 0;
+        
+    } */
+
+    /* .Navbar .Navbar_container .Navbar_Admin .navbar-nav .nav-item .dropdown-menu{
+        position: absolute;
+        top: 60px;
+        right: 0;
+    } */
+}
+
